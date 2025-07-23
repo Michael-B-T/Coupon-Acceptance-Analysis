@@ -2,10 +2,44 @@
 A data analysis project on customer coupon acceptance patterns.
 This project explores which factors influence whether a customer accepts a coupon and compiles that data to be more comsumable for the human and machine learning.
 
-# Key Findings
-- Frequent bar-goers and drivers under age 30 are more likely to accept bar coupons.
-- Having a passenger (but not a kid) and not being widowed also correlate with higher acceptance.
-- Coupon acceptance tends to be higher in younger, social, and more active users.
+# Key Findings (Bar)
+- Drivers who go to bars more than once a month are significantly more likely to accept bar coupons than those who don’t.
+- This acceptance rate further increases when:
+-   They are over the age of 25
+-   They are not accompanied by kids
+-   They are not widowed
+-   They do not work in farming, fishing, or forestry
+
+# Actionable Recommendations (Bar)
+- Target bar coupons to:
+-   Adults over 25 years old
+-   Drivers who go to bars more than once a month
+-   People with non-child passengers
+-   Avoid targeting individuals with occupations in farming, fishing, or forestry
+
+# Key Findings (Coffee House)
+- Drivers who visit coffee houses more than 3 times per month show a marked increase in coupon acceptance rates.
+- Other correlated attributes include:
+-   Being younger than 30
+-   Having non-child passengers
+-   Having an income under $50,000
+
+# Actionable Recommendations (Coffee House)
+- Target coffee house coupons toward:
+-   Frequent coffee drinkers (4+ visits/month)
+-   Younger drivers (<30 years old)
+-   Drivers with non-child passengers
+-   Individuals earning below $50K/year
+
+# Next Steps (Bar)
+- Consider adding location or time-of-day factors to refine bar coupon targeting.
+- Use a predictive model to score potential bar coupon acceptance likelihood.
+- Run A/B tests to evaluate bar coupon strategies
+
+# Next Steps (Coffee House)
+- Explore correlations with other attributes like time of day or education level.
+- Expand analysis to include coupon expiration, timing, and urgency.
+- Test automated targeting with user profiles built on income, age, and coffee consumption.
 
 # Tools Used
 - Python (Pandas, Seaborn, Matplotlib)
